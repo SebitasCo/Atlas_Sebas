@@ -1,0 +1,40 @@
+.fondo {
+    background-image: url("/assets/imgs/banner-bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+.btn-started {
+    background-color: #01f7a8; 
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 80px;
+    left: 120px;
+
+}
+
+.btn-access {
+    background-color: transparent; 
+    color: #ffff;
+    padding: 10px 20px;
+   border: none;
+    font-size: 16px;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
