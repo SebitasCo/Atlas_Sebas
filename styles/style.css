@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 70%;
+    height: 77%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -11,20 +11,27 @@
 
 
 }
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 45px;
+    left: 135px;
+}
 
 
 .btn-started {
     background-color: #01f7a8; 
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    padding: 18px 30px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     position: absolute;
-    bottom: 80px;
-    left: 120px;
+    bottom: 90px;
+    left: 135px;
 
 }
 
@@ -35,6 +42,44 @@
    border: none;
     font-size: 16px;
     position: absolute;
-    top: 45px;
-    right: 30px;
+    top: 65px;
+    right: 130px;
 }
+.h1 {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 80px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffff;
+    position: absolute;
+    top: 150px;
+    left: 135px;
+}
+
+.linea1,.linea2 {
+    display: block;
+    margin: 0;
+    line-height: 1.2;
+}
+.h3 {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffff;
+    position: absolute;
+    top: 410px;
+    left: 135px;
+}
+
+.linea3,.linea4 {
+    display: block;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
