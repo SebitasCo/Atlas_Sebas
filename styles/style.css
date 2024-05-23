@@ -147,126 +147,292 @@ h2 {
 /* section 3 */
 
 .part3{
-  height: 853px;
+    height: 853px;
+  }
+  
+  .trapecio {
+      width: 98.7vw;
+      height: 39rem;
+      background-color: #01f7a8;
+      clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
+      position: absolute;
+     margin-top: 22rem;
+  
+  }
+  
+  
+  .title_s3 {
+  
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 58px;
+      font-weight: 400;
+      font-style: bold;
+      color: #000;
+      position: relative;
+      text-align: left;
+      padding-top: 30vh;
+      margin:0;
+      left: 85px;
+      padding-right: 0;
+      width: 45rem;
+  }
+  
+  .part3 p {
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 24px;
+      font-weight: 200;
+      font-style: normal;
+      color: #000;
+      position: relative;
+      text-align: left;
+      left:85px;
+      margin: 0;
+      width: 45rem;
+  
+  
+  }
+  
+  .learnmore {
+      background-color: #192440; 
+      color: rgb(255, 255, 255);
+      padding: 18px 30px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      left: 85px;
+      position: relative;
+      margin-top: 40px;
+  }
+  .part3 img {
+      position: absolute;
+      top: 160vh;
+      left: 900px;
+  
+  }
+  
+  /* section 4 */
+  
+  .part4{
+      height: 350px;
+      width: 98.7vw;
+      background-color: #01f7a8;
+    }
+    
+    .part4 img {
+        position: absolute;
+        top: 220vh;
+        left: 20rem;
+    }
+    
+    .title_s4 {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 58px;
+        font-weight: 400;
+        font-style: bold;
+        color: #000;
+        position: relative;
+        text-align: left;
+        margin:0;
+        left: 65rem;
+        width: 45rem;
+        width: 400px;
+    }
+    .part4 p {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 24px;
+        font-weight: 200;
+        font-style: normal;
+        color: #000;
+        position: relative;
+        text-align: left;
+        left:65rem;
+        margin: 0;
+        width: 400px;
+    
+    }
+    
+    .part4 button{
+        background-color: #192440; 
+        color: rgb(255, 255, 255);
+        padding: 18px 30px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top:40px;
+        position: relative;
+        left: 70rem;
+    }
+
+
+/* section 5 */
+
+.part5{
+  height: 850px;
+
 }
 
-.trapecio {
-    width: 100vw;
-    height: 39rem;
+.title_s5{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 58px;
+    font-weight: 400;
+    font-style: bold;
+    color: #000;
+    padding-top: 100px;
+    text-align: center;
+
+}
+.prices {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 40px;
+
+
+
+
+}
+.price1 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    width: 400px;
+
+
+
+}
+.price1:hover {
+    background-color: #192440;
+    color: #ffff;
+}
+.price1 button:hover {
     background-color: #01f7a8;
-    clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
-    position: absolute;
-   margin-top: 22rem;
-
 }
-
-
-.title_s3 {
-
+.price1 h4 {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 58px;
-    font-weight: 400;
-    font-style: bold;
-    color: #000;
-    position: relative;
-    text-align: left;
-    padding-top: 30vh;
-    margin:0;
-    left: 85px;
-    padding-right: 0;
-    width: 45rem;
+    font-size: 38px;
+    margin: 10px;
 }
-
-.part3 p {
+.price1 h5 {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 24px;
-    font-weight: 200;
-    font-style: normal;
-    color: #000;
-    position: relative;
-    text-align: left;
-    left:85px;
-    margin: 0;
-    width: 45rem;
+    font-size: 28px;
+    margin: 10px;
+
+}
+.price1 h5 big {
+    font-family: "Oswald", sans-serif;
+    font-size: 78px;
 
 
 }
-
-.learnmore {
-    background-color: #192440; 
-    color: rgb(255, 255, 255);
+.price1 button {
+    background-color: white; 
+    color: rgb(0, 0, 0);
     padding: 18px 30px;
-    border: none;
+    border:solid#000;
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    left: 85px;
-    position: relative;
-    margin-top: 40px;
-}
-.part3 img {
-    position: absolute;
-    top: 160vh;
-    left: 1000px;
-
+    margin-top: 25px;
 }
 
-/* section 4 */
-
-.part4{
-  height: 350px;
-  background-color: #01f7a8;
-}
-
-.part4 img {
-    position: absolute;
-    top: 220vh;
-    left: 20rem;
-}
-
-.title_s4 {
+.price2 {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 58px;
-    font-weight: 400;
-    font-style: bold;
-    color: #000;
+    text-align: center;
+    padding-top: 20px;
     position: relative;
-    text-align: left;
-    margin:0;
-    left: 70rem;
-    width: 45rem;
+    width: 400px;
+
 }
-.part4 p {
+.price2:hover {
+    background-color: #192440;
+    color: #ffff;
+}
+.price2 button:hover {
+    background-color: #01f7a8;
+}
+.price2 h4 {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 24px;
-    font-weight: 200;
-    font-style: normal;
-    color: #000;
-    position: relative;
-    text-align: left;
-    left:70rem;
-    margin: 0;
+    font-size: 38px;
+    margin: 10px;
+}
+.price2 h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    margin: 10px;
 
 }
+.price2 h5 big {
+    font-family: "Oswald", sans-serif;
+    font-size: 78px;
 
-.part4 button{
-    background-color: #192440; 
-    color: rgb(255, 255, 255);
+
+}
+.price2 button {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
     padding: 18px 30px;
-    border: none;
+    border: solid #000;
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    margin-top:40px;
-    position: relative;
-    left: 70rem;
+    margin-top: 25px;
 }
+.price3 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    width: 400px;
+
+}
+.price3:hover {
+    background-color: #192440;
+    color: #ffff;
+}
+.price3 button:hover {
+    background-color: #01f7a8;
+}
+.price3 h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 38px;
+    margin: 10px;
+}
+.price3 h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    margin: 10px;
+
+}
+.price3 h5 big {
+    font-family: "Oswald", sans-serif;
+    font-size: 78px;
+
+
+}
+.price3 button {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    padding: 18px 30px;
+    border: solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+/*section 6 */
+
 
 
 
