@@ -394,7 +394,7 @@ h2 {
     padding-top: 20px;
     position: relative;
     width: 400px;
-    height: 500px;
+
 
 }
 .price3:hover {
@@ -450,7 +450,6 @@ h2 {
 .part7 {
     background-image: url("/assets/imgs/contact-bk.jpg");
     background-repeat: no-repeat;
-
     height: 500px;
 }
 
@@ -484,10 +483,9 @@ h2 {
 
 
 .forms-part7 {
-    margin-top: 200px;
     position: relative;
     left: 60rem;
-    top: 100px;
+    top: 130px;
     width: 200px;
     width: 200px;
 }
@@ -539,3 +537,33 @@ h2 {
     margin-top: 40px;
     cursor: pointer;
 }
+
+footer{
+    background-color: #192440;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer p {
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: normal;
+    margin: 3px;
+    margin-right: 70rem;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+.imgs-footer {
+    margin:30px
+}
+
